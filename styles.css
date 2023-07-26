@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* styles.css */
+
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(to right, #eecda3, #df76a4); */
+    /* background: linear-gradient(to right, #c2e59c, #64b3f4); */
+    background: linear-gradient(to right, #92fe9d, #0ec4f7);
+    /* background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8); */
+  }
+  
+  /* Style the top navigation bar */
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background-color: transparent; /* Replace with your gradient color */
+    color: #333333; /* Text color for the top bar */
+    /* border: solid red 2px; */
+  }
+  
+  .top-nav button {
+    background-color: transparent;
+    border: solid yellow ;
+    cursor: pointer;
+  }
+  
+  /* Style the sign-in popup */
+  #signin-popup {
+    /* Add styles to create the popup effect */
+    /* Position the popup in the center of the screen */
+  }
+  
+  /* Style the left sidebar navigation */
+  .left-nav {
+    position: fixed;
+    top: 0;
+    left: 1rem;
+    bottom: 0;
+    width: 60px; /* Adjust the width as needed */
+    background-color: transparent; /* Replace with your desired color */
+    color:#92fe9d; /* Text color for the icons */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .left-nav li {
+    padding: 2rem
+  }
+  .left-nav li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #92fe9d; /* Replace with the desired color for the bubbles */
+    color: #a243e6a2; /* Text color for the icons */
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.2s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Add hover effect to the bubbles */
+  .left-nav li a:hover {
+    background-color: #5ad1f2; /* Replace with the desired color on hover */
+    color: #f08fa7;
+    transform: scale(1.1) translateX(5px); /* Add a slight scale effect on hover */
+  }
+  
+  
+  /* Style the background image */
+  .background {
+    /* Add styles to position the background image */
+    /* Make it transparent and blured using CSS */
+  }
+  
+  .welcome-message {
+    text-align: center;
+    padding-top: 200px; /* Adjust the padding to center the message */
+  }
+  
+  /* Style the search bar */
+  .search-bar {
+    text-align: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .search-bar input {
+    /* Add styles for the search bar */
+  }
+  
+  /* Style the sliding cards */
+  .slideshow {
+    /* Add styles for the sliding cards */
+  }
+  
+  /* Add more styles as needed for the rest of your content */
+  
+  
+
