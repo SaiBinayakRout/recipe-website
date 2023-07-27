@@ -42,7 +42,7 @@ body {
   .left-nav {
     position: fixed;
     top: 0;
-    left: 1rem;
+    left: 3rem;
     bottom: 0;
     width: 60px; /* Adjust the width as needed */
     background-color: transparent; /* Replace with your desired color */
@@ -60,7 +60,7 @@ body {
   }
   
   .left-nav li {
-    padding: 2rem
+    padding: 3rem
   }
   .left-nav li a {
     display: flex;
@@ -78,39 +78,83 @@ body {
   
   /* Add hover effect to the bubbles */
   .left-nav li a:hover {
-    background-color: #5ad1f2; /* Replace with the desired color on hover */
+    background-color: #5ad1f2; 
     color: #f08fa7;
-    transform: scale(1.1) translateX(5px); /* Add a slight scale effect on hover */
+    transform: scale(1.1) translateX(5px); 
   }
   
   
   /* Style the background image */
-  .background {
-    /* Add styles to position the background image */
-    /* Make it transparent and blured using CSS */
+  .welcome-container {
+    position: absolute;
+  top: 37%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  width: 79rem;
+  height:20rem;
+  background-color: rgba(255, 255, 255, 0.7); 
+  backdrop-filter: blur(50%); 
+  overflow: hidden; 
+  border-radius: 3rem;
+  /* background: (rgba(82, 82, 82, 0.7), rgba(44, 44, 44, 0.7)), no-repeat; */
+  }
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    /* background: (rgba(82, 82, 82, 0.7), rgba(44, 44, 44, 0.7)), no-repeat; */
   }
   
   .welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    padding-top: 200px; /* Adjust the padding to center the message */
+  
   }
   
   /* Style the search bar */
   .search-bar {
-    text-align: center;
-    margin-top: 20px; /* Adjust the margin as needed */
+    /* text-align: center; */
+    margin-top: 20px; 
   }
   
   .search-bar input {
-    /* Add styles for the search bar */
+    width: 23%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+top: 22rem;
+left: 13rem;
   }
+    
   
-  /* Style the sliding cards */
-  .slideshow {
-    /* Add styles for the sliding cards */
+
+  .slider {
+    text-align: center;
+    margin-top: 30px;
+    overflow: hidden;
   }
+  .card{
+    flex: 0 0 20%;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  }
+  .about-msg{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
   
-  /* Add more styles as needed for the rest of your content */
+  
   
   
 
